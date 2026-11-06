@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio & Jurnal | Muhammad Robbani Albar Roqa</title>
+    
+    <!-- Mengimpor font elegan dari Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+        /* PENGATURAN TEMA SINEMATIK (CSS) */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #121212; /* Warna latar gelap arang */
+            color: #e0e0e0; /* Warna teks abu-abu terang agar tidak kontras menyilaukan */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #1a1a1a;
+            width: 90%;
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.8); /* Efek bayangan dramatis */
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #d4af37; /* Garis tepi warna emas */
+            padding: 5px;
+            margin-bottom: 20px;
+            filter: grayscale(15%); /* Memberikan sedikit efek sinematik pada foto */
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #d4af37; /* Emas */
+            font-size: 2.2em;
+            margin: 0 0 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 0.95em;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            text-align: left;
+            border-bottom: 1px solid #333;
+            padding-bottom: 8px;
+            margin-top: 35px;
+            color: #d4af37;
+            font-size: 1.4em;
+        }
+
+        .content-text {
+            text-align: left;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        /* Desain List Hobi */
+        .content-text li {
+            margin-bottom: 8px;
+        }
+
+        /* Desain Tombol Eksklusif */
+        .social-links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            padding: 10px 25px;
+            background-color: transparent;
+            color: #d4af37;
+            text-decoration: none;
+            border: 1px solid #d4af37;
+            border-radius: 4px;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 1px;
+            transition: all 0.4s ease;
+        }
+
+        .social-links a:hover {
+            background-color: #d4af37;
+            color: #121212;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4); /* Efek bercahaya saat disentuh */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- KONTEN WEBSITE (HTML) -->
+    <div class="container">
+        
+        <!-- Jangan lupa ganti URL ini dengan nama file fotomu nanti -->
+        <img src="https://via.placeholder.com/160/1a1a1a/d4af37?text=Foto" alt="Foto Profil" class="profile-img">
+        
+        <h1>[Nama Lengkapmu]</h1>
+        <p class="subtitle">NIM: [NIM Ganjil Kamu] &nbsp;|&nbsp; Manajemen Informasi Komunikasi</p>
+
+        <h2 class="section-title">Prolog</h2>
+        <p class="content-text">
+            Selamat datang di jurnal digital saya. Saya adalah seorang mahasiswa yang tertarik pada persimpangan antara manajemen informasi, strategi komunikasi, dan eksplorasi visual. Ruang ini saya bangun tidak hanya sebagai rekam jejak akademis, tetapi juga sebagai kanvas untuk membedah ide, mengkurasi gagasan, dan mempersiapkan langkah menuju studi lanjutan di tingkat global.
+        </p>
+
+        <h2 class="section-title">Eksplorasi & Minat</h2>
+        <ul class="content-text">
+            <li><strong>Seni Visual & Sinematografi:</strong> Menerjemahkan gagasan abstrak menjadi narasi visual yang terstruktur.</li>
+            <li><strong>Analisis Strategis:</strong> Melihat persoalan komunikasi secara holistik dari berbagai sudut pandang.</li>
+            <li><strong>Pengembangan Diri:</strong> Secara aktif mengasah kecakapan bahasa Inggris demi menjangkau wawasan internasional.</li>
+        </ul>
+
+        <h2 class="section-title">Koneksi</h2>
+        <div class="social-links">
+            <!-- Ganti tanda # dengan link aslimu -->
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
